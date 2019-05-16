@@ -69,7 +69,7 @@
   <properties>
     <!-- dependency version properties -->
     <kite.version>0.15.1-SNAPSHOT</kite.version>
-    <kite.avro.version>1.7.5</kite.avro.version>
+    <kite.avro.version>1.9.0</kite.avro.version>
     <kite.crunch.version>0.9.0-hadoop2</kite.crunch.version>
     <kite.findbugs.version>2.0.1</kite.findbugs.version>
     <kite.hive.version>0.10.0-cdh4.4.0</kite.hive.version>
