@@ -170,7 +170,7 @@
     <vers.jackson>2.3.1</vers.jackson>
     <vers.opencsv>2.3</vers.opencsv>
     <vers.jodatime>2.3</vers.jodatime>
-    <vers.jcommander>1.35</vers.jcommander>
+    <vers.jcommander>1.75</vers.jcommander>
     <vers.spark>1.0.0</vers.spark>
 
     <!-- Plugin versions -->
