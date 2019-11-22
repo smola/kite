@@ -155,7 +155,7 @@
     <vers.log4j>1.2.16</vers.log4j>
     <vers.maven>2.0.6</vers.maven>
     <vers.mockito>1.9.5</vers.mockito>
-    <vers.mojo-executor>1.5</vers.mojo-executor>
+    <vers.mojo-executor>2.3.1</vers.mojo-executor>
     <vers.oozie>3.3.2-cdh${cdh.version}</vers.oozie> <!-- OOZIE-1790 -->
     <vers.parquet>1.4.1</vers.parquet>
     <vers.plexus-utils>3.0</vers.plexus-utils>
