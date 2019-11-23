@@ -16,7 +16,7 @@
   <artifactId>kite-morphlines-protobuf</artifactId>
 
   <properties>
-    <vers.protobuf>2.5.0</vers.protobuf>
+    <vers.protobuf>3.4.0</vers.protobuf>
   </properties>
 
   <dependencies>
@@ -65,7 +65,7 @@
             <configuration>
               <target>
                 <copy todir="${project.build.directory}/test-classes">
-                  <fileset dir="${basedir}/../kite-morphlines-core/src/test/resources" />
+                  <fileset dir="${basedir}/../kite-morphlines-core/src/test/resources"/>
                 </copy>
               </target>
             </configuration>
@@ -113,17 +113,17 @@
                   <phase>generate-test-sources</phase>
                   <configuration>
                     <target>
-                      <mkdir dir="${basedir}/generated-test-sources" />
+                      <mkdir dir="${basedir}/generated-test-sources"/>
                       <exec executable="protoc">
-                        <arg value="--java_out=${basedir}/generated-test-sources" />
-                        <arg value="src/test/resources/test-protos/protos.proto" />
+                        <arg value="--java_out=${basedir}/generated-test-sources"/>
+                        <arg value="src/test/resources/test-protos/protos.proto"/>
                       </exec>
-                      <move file="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.java" toFile="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.tmp" />
+                      <move file="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.java" toFile="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.tmp"/>
                       <concat destfile="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.java">
-                        <fileset file="${basedir}/src/test/resources/license-header.txt" />
-                        <fileset file="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.tmp" />
+                        <fileset file="${basedir}/src/test/resources/license-header.txt"/>
+                        <fileset file="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.tmp"/>
                       </concat>
-                      <delete file="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.tmp" />
+                      <delete file="${basedir}/generated-test-sources/org/kitesdk/morphline/protobuf/Protos.tmp"/>
                     </target>
                   </configuration>
                   <goals>
