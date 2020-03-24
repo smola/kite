@@ -117,7 +117,7 @@
     <previous.project.version>0.15.0</previous.project.version>
 
     <cdh4.version>4.4.0</cdh4.version>
-    <cdh5.version>5.0.0</cdh5.version>
+    <cdh5.version>3.2.1</cdh5.version>
     <cdh.version>${cdh4.version}</cdh.version>
 
     <!-- artifacts that depend on profiles -->
@@ -127,7 +127,7 @@
     <artifact.hbase-test-deps>kite-hbase-test-dependencies</artifact.hbase-test-deps>
 
     <!-- Library versions -->
-    <vers.avro>1.7.5</vers.avro>
+    <vers.avro>1.9.0</vers.avro>
     <vers.commons-codec>1.4</vers.commons-codec>
     <vers.commons-io>2.1</vers.commons-io>
     <vers.commons-logging>1.1.1</vers.commons-logging>
