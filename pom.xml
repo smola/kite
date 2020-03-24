@@ -117,7 +117,7 @@
     <previous.project.version>0.15.0</previous.project.version>
 
     <cdh4.version>4.4.0</cdh4.version>
-    <cdh5.version>5.0.0</cdh5.version>
+    <cdh5.version>2.0.0</cdh5.version>
     <cdh.version>${cdh4.version}</cdh.version>
 
     <!-- artifacts that depend on profiles -->
